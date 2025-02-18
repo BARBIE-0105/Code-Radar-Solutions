@@ -7,7 +7,7 @@ int main()
         printf("greater integer:%d\n",a);
     }
     else if(b>a){
-        printf("greater integer:%d",b);
+        printf("greater integer:%d\n",b);
     }
     else{
         printf("Both integers are equal.\n");
