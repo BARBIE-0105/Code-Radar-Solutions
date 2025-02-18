@@ -5,6 +5,7 @@ int main()
     int b;
     int c;
     scanf("%d%d%d",&a,&b,&c);
+        printf("a: %d, b: %d, c: %d\n", a, b, c); 
     if (a>=b && a>=c)
     {
         printf("maximum number: %d\n", a);
