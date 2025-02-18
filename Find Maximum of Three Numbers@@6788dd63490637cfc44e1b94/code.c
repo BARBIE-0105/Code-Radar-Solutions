@@ -7,14 +7,14 @@ int main()
     scanf("%d%d%d",&a,&b,&c);
     if (a>b && a>c)
     {
-        printf("maximum number\n",a);
+        printf("maximum number\n");
     }
      else if (b>a &&b>c)
      {
-        printf("maximum number\n",b);
+        printf("maximum number\n");
      }
      else{
-        printf("maximum number\n",c);
+        printf("maximum number\n");
      }
      return 0;
 }
