@@ -1,15 +1,14 @@
 #include<stdio.h>
-#include<stdbool.h>
 int main()
 {
     int a;
     int b;
     scanf("%d%d",&a,&b);
     if(a>b){
-    printf("%d",1);
+    printf("True",a);
     }
     else{
-    printf("%d",0);
+    printf("False",b);
     }
     return 0;
 }
