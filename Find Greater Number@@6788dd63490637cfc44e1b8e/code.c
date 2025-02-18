@@ -9,8 +9,5 @@ int main()
     else if(b>a){
         printf("greater integer:%d\n",b);
     }
-    else{
-        printf("Both integers are equal.\n");
-    }
     return 0;
 }
