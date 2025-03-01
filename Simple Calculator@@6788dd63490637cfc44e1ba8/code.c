@@ -6,8 +6,7 @@ int main()
     scanf("%c",&operator);
     scanf("%lf%lf",&num1,&num2);
     if (operator == '+') {
-        result = num1 + num2;
-        printf("%.2lf + %.2lf = %.2lf\n");
+        printf("num1+num2"\n);
     } else if (operator == '-') {
         result = num1 - num2;
         printf("%.2lf - %.2lf = %.2lf\n");
