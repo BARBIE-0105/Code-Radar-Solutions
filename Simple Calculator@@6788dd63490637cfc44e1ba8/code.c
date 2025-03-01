@@ -14,11 +14,6 @@ int main()
     } else if (operator == '*') {
         result = num1 * num2;
         printf("%.2lf * %.2lf = %.2lf\n");
-    } else if (operator == '/') {
-        if (num2 != 0) {
-            result = num1 / num2;
-            printf("%.2lf / %.2lf = %.2lf\n");
-        }
-        }
+    } 
         return 0;
 }
