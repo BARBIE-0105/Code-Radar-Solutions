@@ -18,6 +18,7 @@ int main()
         if (num2 != 0) {
             result = num1 / num2;
             printf("%.2lf / %.2lf = %.2lf\n");
+        }
         } 
         else{
             printf("Invalid")
